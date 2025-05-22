@@ -19,8 +19,9 @@ The goal of this project is to design and implement a smart security solution th
 - Breadboard
 - Python 3
 - SMTP Library for Email Alert
+- Led (alert and idication that mail is send successfully)
 
----
+---  
 
 ## 💻 How Project is Made?
 
@@ -40,7 +41,11 @@ The goal of this project is to design and implement a smart security solution th
    Refer to the image below for camera connection:  
    ![Camera Module Connection](images/camera_module_connection.png)
 
-4. **Code**  
+4. **Interfacing with led**  
+- connect it to gpio pin 27 
+when instrusion is detected led will blink 10 times and mail will be send.
+
+5. **Code**  
    Change the sending and receiving email addresses according to you.  
    Run `code.py` file in Raspbian OS via Thonny Editor.
 
