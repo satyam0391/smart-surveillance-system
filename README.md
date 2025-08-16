@@ -21,7 +21,7 @@ The goal of this project is to design and implement a smart security solution th
 - SMTP Library for Email Alert
 - Led (alert and idication that mail is send successfully)
 
----  
+---   
 
 ## 💻 How Project is Made?
 
